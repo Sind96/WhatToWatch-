@@ -66,8 +66,6 @@ In addition to the usual tools like Git, Node, and npm, you'll need the followin
 
 [![React][React]][React-url] [![Express.js][Express.js]][Express.js-url] [![MongoDB][Mongo-Db]][Mongo-Db-url]
 
-- BackEnd Server - Express
-
 ## Developers
 
 - Sindhu Yogu - [GitHub](https://github.com/cherlin)
