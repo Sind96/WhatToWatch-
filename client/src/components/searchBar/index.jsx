@@ -53,9 +53,10 @@ export default function SearchBar () {
     setSearchItem(movie.title);
     setFilteredMovies([]);
   }
+  
   function searchTheMovie () {
     const imdbId = searchMovie.imdbId;
-    navigate(`/homepage/:${imdbId}`);
+    navigate(`/homepage/${imdbId}`);
   }
 
 
