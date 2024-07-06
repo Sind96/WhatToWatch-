@@ -1,7 +1,7 @@
 # WhatToWatch?
 
 <p align="center">
-  <img src="../SoloProject - WhatToWatch/client/public/Logo.png"  width="500"/>
+  <img src="/client/public/Logo.png"  width="500"/>
 </p>
 
 WhatToWatch is a mobile-friendly web application designed for movie enthusiasts. With WhatToWatch, you can easily browse through all your favorite movies, discover new ones, and see where they are available for streaming. The site also features a convenient favorites list and a random movie selector to help you decide what to watch when you're feeling indecisive.
