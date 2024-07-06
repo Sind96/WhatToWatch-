@@ -9,9 +9,9 @@ WhatToWatch is a mobile-friendly web application designed for movie enthusiasts.
 ## Screenshots
 
 <p align="center">
-  <img src="../SoloProject - WhatToWatch/client/public/Login.png" height="600" />
-  <img src="../SoloProject - WhatToWatch/client/public/SignUp.png" height="600" /> <br>
-  <img src="../SoloProject - WhatToWatch/client/public/Homescreen.png" height="600" />
+  <img src="/client/public/Login.png" height="600" />
+  <img src="/client/public/SignUp.png" height="600" /> <br>
+  <img src="/client/public/Homescreen.png" height="600" />
 </p>
 
 ## Getting started
