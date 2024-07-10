@@ -64,7 +64,7 @@ In addition to the usual tools like Git, Node, and npm, you'll need the followin
 
 ## Tech Stack
 
-[![React][React]][React-url] [![Express.js][Express.js]][Express.js-url] [![MongoDB][Mongo-Db]][Mongo-Db-url] [![Mongoose][Mongoose]][Mongoose-url] [![Vite][Vite]][Vite-url] [![ESLint][ESLint]][ESLint-url]
+[![React][React]][React-url] [![Express.js][Express.js]][Express.js-url] [![MongoDB][Mongo-Db]][Mongo-Db-url] [![Mongoose][Mongoose]][Mongoose-url] [![Vite][Vite]][Vite-url] [![Git][Git]][Git-url] [![GitHub][GitHub]][GitHub-url] [![ESLint][ESLint]][ESLint-url] [![Prettier][Prettier]][Prettier-url]
 
 ## Developers
 
@@ -85,3 +85,9 @@ In addition to the usual tools like Git, Node, and npm, you'll need the followin
 [Mongoose-url]: https://mongoosejs.com/docs/index.html
 [ESLint]: https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=for-the-badge
 [ESLint-url]: https://eslint.org/docs/latest/
+[Git-url]: https://git-scm.com/
+[Git]: https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
+[GitHub-url]: https://github.com/
+[GitHub]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[Prettier]: https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E
+[Prettier-url]: https://prettier.io/
