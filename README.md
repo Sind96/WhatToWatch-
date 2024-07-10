@@ -64,7 +64,7 @@ In addition to the usual tools like Git, Node, and npm, you'll need the followin
 
 ## Tech Stack
 
-[![React][React]][React-url] [![Express.js][Express.js]][Express.js-url] [![MongoDB][Mongo-Db]][Mongo-Db-url]
+[![React][React]][React-url] [![Express.js][Express.js]][Express.js-url] [![MongoDB][Mongo-Db]][Mongo-Db-url] [![Mongoose][Mongoose]][Mongoose-url] [![Vite][Vite]][Vite-url] [![ESLint][ESLint]][ESLint-url]
 
 ## Developers
 
@@ -79,3 +79,9 @@ In addition to the usual tools like Git, Node, and npm, you'll need the followin
 [Mongo-Db-url]: https://www.mongodb.com/docs/atlas/getting-started/
 [Express.js]: https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB
 [Express.js-url]: https://expressjs.com/
+[Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
+[Mongoose]: https://img.shields.io/badge/Mongoose-800?logo=mongoose&logoColor=fff&style=for-the-badge
+[Mongoose-url]: https://mongoosejs.com/docs/index.html
+[ESLint]: https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=fff&style=for-the-badge
+[ESLint-url]: https://eslint.org/docs/latest/
