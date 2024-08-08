@@ -1,11 +1,11 @@
-const express = require("express");
-const app = express();
-var bodyParser = require("body-parser");
-var cors = require("cors");
-const mongoose = require("./model");
+import express, { Application } from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
+import mongoose from "./model";
+import router from "./router";
 
-const port = 3000;
-const router = require("./router");
+const app: Application = express();
+const port: number = 3000;
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -13,11 +13,12 @@ app.use(router);
 
 (async function () {
   try {
-    mongoose.connect("mongodb://127.0.0.1:27017/WhatToWatch");
-    app.listen(port);
-    console.log(
-      `Server running on PORT ${port} and Database has successfully connected!🕊️`
-    );
+    await mongoose.connect("mongodb://127.0.0.1:27017/WhatToWatch");
+    app.listen(port, () => {
+      console.log(
+        `Server running on PORT ${port} and Database has successfully connected!🕊️`
+      );
+    });
   } catch (e) {
     console.log(`Database could not connect:`, e);
   }
