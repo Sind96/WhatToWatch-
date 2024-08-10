@@ -1,16 +1,22 @@
-'use strict';
+"use strict";
 
-const mongoose = require('.');
+import mongoose, { Schema, Document, Model } from "mongoose";
 
-const Schema = mongoose.Schema;
+interface IMovie extends Document {
+  imdbID: string;
+  title: string;
+  imageURL: string;
+}
 
-const movieSchema = new Schema({
-  imdbId: String,
-  title: String,
-  imageURL: String,
+const movieSchema: Schema = new Schema({
+  imdbId: { type: String, required: true },
+  title: { type: String, required: true },
+  imageURL: { type: String, required: true },
 });
 
-const movieList = mongoose.model('favouriteMovieList', movieSchema);
+const movieList: Model<IMovie> = mongoose.model<IMovie>(
+  "favouriteMovieList",
+  movieSchema
+);
 
-
-module.exports = movieList;
+export default movieList;
