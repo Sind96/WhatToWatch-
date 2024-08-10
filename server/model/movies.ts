@@ -3,7 +3,7 @@
 import mongoose, { Schema, Document, Model } from "mongoose";
 
 interface IMovie extends Document {
-  imdbID: string;
+  imdbId: string;
   title: string;
   imageURL: string;
 }

@@ -33,6 +33,9 @@ export const removeMovie = async (req: Request, res: Response) => {
   try {
     const { imdbId } = req.body.params;
     const result = await movieList.deleteOne({ imdbId: imdbId });
+    res
+      .status(200)
+      .send({ msg: `Movie with imdbId ${imdbId} removed successfully.` });
   } catch (e) {
     console.log(`There has been an error with removeMovie:`, e);
     res.status(500).send(`Internal Server Error`);
