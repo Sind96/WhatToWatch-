@@ -21,7 +21,13 @@ app.use(router);
         `Server running on PORT ${port} and Database has successfully connected!🕊️`
       );
     });
-  } catch (e) {
-    console.log(`Database could not connect:`, e);
+  } catch (e: unknown) {
+    if (e instanceof Error) {
+      console.log(`Database could not connect: ${e.message}`);
+    } else {
+      console.log(
+        "An unknown error occurred while connecting to the database."
+      );
+    }
   }
 })();
