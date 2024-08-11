@@ -5,10 +5,10 @@ import { retrieveAllMovies, addMovie, removeMovie } from "./controllers/movies";
 
 const router: Router = Router();
 
-router.get("/", retrieveAllMovies);
+router.get("/movies", retrieveAllMovies);
 
-router.post("/", addMovie);
+router.post("/movies", addMovie);
 
-router.delete("/", removeMovie);
+router.delete("/movies/:id", removeMovie);
 
 export default router;
